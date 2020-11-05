@@ -32,7 +32,8 @@ app.use(bodyParser.json())
 
 
 app.get("/", (req, res) => {
-  res.json({ mensagem: "👏 API 100% funcional!", versao: "1.1.01" });
+  res.json({ mensagem: "👏 API 100% funcional!", 
+             versao: "1.1.01" });
 });
 
 /* Rotas do Usuário */
